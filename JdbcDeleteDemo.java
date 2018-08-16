@@ -13,9 +13,9 @@ public class JdbcDeleteDemo {
 		Statement myStmt = null;
 		ResultSet myRs = null;
 
-		String dbUrl = "jdbc:mysql://localhost:3306/demo";
-		String user = "student";
-		String pass = "student";
+		String dbUrl = "";
+		String user = "";
+		String pass = "";
 
 		try {
 			// Get a connection to database
