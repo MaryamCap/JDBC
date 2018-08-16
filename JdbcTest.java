@@ -14,7 +14,7 @@ public class JdbcTest {
 
 		try {
 			// 1. Get a connection to database
-			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "student", "student");
+			myConn = DriverManager.getConnection(myConn,myStmt, myRs);
 
 			// 2. Create a statement
 			myStmt = myConn.createStatement();
